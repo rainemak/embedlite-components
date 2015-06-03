@@ -7,7 +7,7 @@ License:    Mozilla License
 URL:        https://github.com/tmeshkova/embedlite-components
 Source0:    %{name}-%{version}.tar.bz2
 Patch0:     0001-embedlite-components-Tweak-UA-for-Facebook-to-get-im.patch
-BuildRequires:  xulrunner-qt5-devel
+BuildRequires:  xulrunner-qt5-devel >= 31.7.0.50
 BuildRequires:  pkgconfig(nspr)
 BuildRequires:  python
 BuildRequires:  libtool
