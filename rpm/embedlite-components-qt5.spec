@@ -33,7 +33,7 @@ BuildRequires:  libtool
 BuildRequires:  automake
 BuildRequires:  autoconf
 BuildRequires:  perl
-Requires:  xulrunner-qt5 >= 31.7.0.14
+Requires:  xulrunner-qt5 >= %{min_xulrunner_version}
 Conflicts: embedlite-components
 
 %description
